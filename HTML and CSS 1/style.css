@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Baskerville', serif;
+}
+
+header {
+    background-color: beige;
+    text-align: center;
+    height: 15dvh;
+}
+
+header > h1 {
+    padding-top: 15px;
+}
+
+nav {
+    margin: 1rem 1rem
+}
+
+nav a {
+    text-align: center;
+    padding: 0 15px;
+    color: black;
+    text-decoration: none;
+    border-bottom: 3px solid white;
+}
+
+nav a:hover {
+    color: black;
+    background-color: white;
+}
+
+nav a.active {
+    background-color: black;
+    color: white;
+}
+
+img {
+    display: block;
+    margin:auto;
+    padding: 1rem 0.5rem;
+}
+
+.subtitles {
+    text-align: center;
+    padding: 1rem;
+    border-top: 3px solid black;
+}
+
+main p {
+    margin: 2rem;
+}
+
+p img {
+    float: left;
+    margin: .5rem;
+}
+
+.section3 p {
+    text-align: left;
+    margin: auto;
+    
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: left;
+}
