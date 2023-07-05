@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    padding: 25px;
+    background-color: lightgray;
+    box-sizing: border-box;
+}
+
+header div {
+    background-color: blue;
+    height: 75px;
+    width: 75px;
+}
+
+section {
+    padding: 50px;
+}
+
+section p {
+    margin: 1rem;
+}
+
+#strip1 {
+    background-color: blue;
+    height: 25dvh;
+}
+
+#strip2 {
+    background-color: aqua;
+    height: 25dvh;
+}
+
+#strip3 {
+    background-color: lightgreen;
+    height: 25dvh;
+}
+#strip4 {
+    background-color: yellow;
+    height: 25dvh;
+}
+
+.question {
+    position: fixed;
+    right: 25px;
+    bottom: 10px;
+}
+
+button {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 30px;
+}
+
